@@ -1,0 +1,19 @@
+{
+  "name": "contacts-mvc-data",
+  "version": "1.0.0",
+  "description": "Contacts MVC data ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contacts-mvc/data.git"
+  },
+  "author": "Mohsen Azimi <me@azimi.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/contacts-mvc/data/issues"
+  },
+  "homepage": "https://github.com/contacts-mvc/data#readme"
+}
