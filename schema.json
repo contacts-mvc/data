@@ -20,98 +20,23 @@
         "lastName": {
             "type": "string"
         },
-        "nickName": {
-            "type": "string"
-        },
-        "title": {
-            "type": "string"
-        },
-        "companyName": {
-            "type": "string"
-        },
-        "pictures": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "url": {
-                        "type": "string"
-                    }
+        "picture": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string"
                 }
             }
         },
-        "phoneNumbers": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "title": {
-                        "type": "string"
-                    },
-                    "number": {
-                        "type": "integer"
-                    }
-                }
-            }
+        "phoneNumber": {
+            "type": "string"
         },
-        "emails": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "title": {
-                        "type": "string"
-                    },
-                    "email": {
-                        "type": "string"
-                    }
-                }
-            }
+        "email": {
+            "type": "string",
+            "format": "email"
         },
         "addresses": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "title": {
-                        "type": "string"
-                    },
-                    "address": {
-                        "type": "object",
-                        "properties": {
-                            "street1": {
-                                "type": "string"
-                            },
-                            "street2": {
-                                "type": "string"
-                            },
-                            "city": {
-                                "type": "string"
-                            },
-                            "state": {
-                                "type": "string"
-                            },
-                            "country": {
-                                "type": "string"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "url": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "title": {
-                        "type": "string"
-                    },
-                    "url": {
-                        "type": "string"
-                    }
-                }
-            }
+            "type": "string"
         }
     }
 }
