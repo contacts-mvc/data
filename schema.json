@@ -1,42 +1,45 @@
 {
-    "title": "Contact",
-    "description": "A Contact object",
-    "type": "object",
-    "required": [
-        "firstName",
-        "id"
-    ],
-    "properties": {
-        "id": {
-            "title": "UUID",
-            "description": "UUID v4",
-            "type": "string",
-            "minLength": 36,
-            "maxLength": 36
-        },
-        "firstName": {
-            "type": "string"
-        },
-        "lastName": {
-            "type": "string"
-        },
-        "picture": {
-            "type": "object",
-            "properties": {
-                "url": {
-                    "type": "string"
+    "type": "array",
+    "items": {
+        "title": "Contact",
+        "description": "A Contact object",
+        "type": "object",
+        "required": [
+            "firstName",
+            "id"
+        ],
+        "properties": {
+            "id": {
+                "title": "UUID",
+                "description": "UUID v4",
+                "type": "string",
+                "minLength": 36,
+                "maxLength": 36
+            },
+            "firstName": {
+                "type": "string"
+            },
+            "lastName": {
+                "type": "string"
+            },
+            "picture": {
+                "type": "object",
+                "properties": {
+                    "url": {
+                        "type": "string"
+                    }
                 }
+            },
+            "phoneNumber": {
+                "type": "string"
+            },
+            "email": {
+                "type": "string",
+                "format": "email"
+            },
+            "addresses": {
+                "type": "string"
             }
-        },
-        "phoneNumber": {
-            "type": "string"
-        },
-        "email": {
-            "type": "string",
-            "format": "email"
-        },
-        "addresses": {
-            "type": "string"
         }
     }
 }
