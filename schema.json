@@ -1,12 +1,18 @@
 {
     "type": "array",
+    "additionalProperties": false,
     "items": {
         "title": "Contact",
         "description": "A Contact object",
         "type": "object",
         "required": [
+            "id",
             "firstName",
-            "id"
+            "lastName",
+            "picture",
+            "phoneNumber",
+            "email",
+            "address"
         ],
         "properties": {
             "id": {
