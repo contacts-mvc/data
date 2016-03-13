@@ -18,5 +18,6 @@
   "homepage": "https://github.com/contacts-mvc/data#readme",
   "devDependencies": {
     "tv4": "^1.2.7"
-  }
+  },
+  "typings": "index.d.ts"
 }
