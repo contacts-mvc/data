@@ -1,5 +1,5 @@
 const tv4 = require('tv4');
-const data = require('./index.json');
+const data = require('./index');
 const schema = require('./schema.json');
 const valid = tv4.validate(data, schema);
 
